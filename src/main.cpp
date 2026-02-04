@@ -13,4 +13,13 @@ void setup() {
 
 void loop() {
 // write your code here
+    myservo.write(0);
+    delay(500);
+    myservo.write(90);
+    delay(500);
+    myservo.write(120);
+    delay(500);
+    myservo.write(180);
+    delay(500);
+
 }
